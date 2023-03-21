@@ -5,7 +5,6 @@ import { Test } from '@nestjs/testing';
 import { UsersService } from '../users.service';
 import { UsersController } from './../users.controller';
 import { User } from '../models/user.model';
-import { CreateAuthDto } from '../../auth/dto/create-auth.dto';
 import { CreateUserDto } from '../dto/create-user.dto';
 
 
